@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-pers {
+    background-color: lightgreen;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 0 1em;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.1em;
+    padding: .5em 1em;
+}
+
+/* Quienes Somos */
+
+.quienes-pers {
+    background-color: lightgreen;
+    color: white;
+    padding: 25px;
+    margin-bottom: 0%;
+}
+
+/* Footer */
+
+.footer-pers {
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.bi-whatsapp {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.bi-whatsapp:hover {
+    color: #4BCA5A;
+}
+
+.bi-twitter {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.bi-twitter:hover {
+    color: #1A8CD8;
+}
+
+.bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.bi-instagram:hover {
+    color: #AE1179;
+}
+
+.bi-facebook {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.bi-facebook:hover {
+    color: #1877F2;
+}
+
+footer p {
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0%;
+    color: white;
+}
