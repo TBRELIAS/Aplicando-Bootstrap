@@ -3,24 +3,30 @@
     padding: 0;
 }
 
+/* Nav */
+
 .bg-pers {
-    background-color: lightgreen;
+    background-color: rgb(185, 178, 178);
+}
+
+.navbar-brand img {
+    width: 120px;
 }
 
 .navbar-brand {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
     padding: 0 1em;
+    margin-right: 0;
 }
 
 .navbar-nav {
     align-items: center;
 }
 .navbar .navbar-nav .nav-link {
-    color: white;
+    color: black;
     font-size: 1.1em;
-    padding: .5em 1em;
+    padding: 0 1em;s
 }
+
 
 /* Quienes Somos */
 
