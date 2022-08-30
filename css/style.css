@@ -3,11 +3,36 @@
     padding: 0;
 }
 
-/* Nav */
+/* Personalizaciones */
 
-.bg-pers {
-    background-color: rgb(185, 178, 178);
+.bg-personal {
+    background-color: rgb(184, 134, 204);
 }
+
+.bgc-texto {
+    color: rgb(184, 134, 204);
+}
+
+.letra-personal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(59, 59, 59);
+}
+
+.btn-primary {
+    margin-top: 20px;
+    background-color: gray;
+    border-color: gray;
+    transition: all 0.2s ease-out;
+}
+
+.btn-primary:hover {
+    background-color: rgb(180, 179, 179);
+    border-color: rgb(175, 164, 164);
+    transform: scale(0.8);
+}
+
+
+/* Nav */
 
 .navbar-brand img {
     width: 120px;
@@ -21,25 +46,52 @@
 .navbar-nav {
     align-items: center;
 }
-.navbar .navbar-nav .nav-link {
-    color: black;
+.navbar .navbar-nav  {
+    color: rgb(78, 78, 78);
     font-size: 1.1em;
     padding: 0 1em;s
 }
 
-
-/* Quienes Somos */
-
-.quienes-pers {
-    background-color: lightgreen;
+.nav-link:hover {
     color: white;
-    padding: 25px;
-    margin-bottom: 0%;
 }
+
+.nav-animaciones {
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
 
 /* Footer */
 
-.footer-pers {
+.footer-personal {
     background-color: rgb(77, 77, 77);
     width: 100%;
     height: 120px;
@@ -103,3 +155,18 @@ footer p {
     margin-bottom: 0%;
     color: white;
 }
+
+/* Inicio */
+
+/* Quienes Somos */
+
+.nosotros-personal {
+    color: rgb(127, 125, 128);
+    padding: 25px;
+    margin-bottom: 0%;
+}
+
+/* Servicios */
+/* Contacto  */
+/* Ubicacion */
+
